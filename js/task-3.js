@@ -1,7 +1,7 @@
-// let message;   Змінна message вже була ініціалізована у Таск-2 
+let messages;
 
-function checkForSpam(message) {
-    let checkMessage = message.toLowerCase();
+function checkForSpam(messages) {
+    let checkMessage = messages.toLowerCase();
 
     if (checkMessage.includes('spam') || checkMessage.includes('sale')) {
         return true;
