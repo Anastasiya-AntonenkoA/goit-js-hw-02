@@ -1,4 +1,4 @@
-let message;
+// let message;   Змінна message вже була ініціалізована у Таск-2 
 
 function checkForSpam(message) {
     let checkMessage = message.toLowerCase();
